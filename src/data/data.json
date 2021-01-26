@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Krivov",
+    "position": "Designer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1611428797000"
+  },
+  {
+    "id": 2,
+    "name": "Vlada Arevkova",
+    "position": "Software Engineer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610492557000"
+  },
+  {
+    "id": 3,
+    "name": "Leanne Graham",
+    "position": "HR Manager",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1610372857000"
+  },
+  {
+    "id": 4,
+    "name": "Alex Krivov",
+    "position": "Designer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610305597000"
+  },
+  {
+    "id": 5,
+    "name": "Vlada Arevkova",
+    "position": "Software Engineer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1611428797000"
+  },
+  {
+    "id": 6,
+    "name": "Leanne Graham",
+    "position": "HR Manager",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610492557000"
+  },
+  {
+    "id": 7,
+    "name": "Alex Krivov",
+    "position": "Designer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1610372857000"
+  },
+  {
+    "id": 8,
+    "name": "Vlada Arevkova",
+    "position": "Software Engineer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610305597000"
+  },
+  {
+    "id": 9,
+    "name": "Leanne Graham",
+    "position": "HR Manager",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1611428797000"
+  },
+  {
+    "id": 10,
+    "name": "Alex Krivov",
+    "position": "Designer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610492557000"
+  },
+  {
+    "id": 11,
+    "name": "Vlada Arevkova",
+    "position": "Software Engineer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1610372857000"
+  },
+  {
+    "id": 12,
+    "name": "Leanne Graham",
+    "position": "HR Manager",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610305597000"
+  },
+  {
+    "id": 13,
+    "name": "Alex Krivov",
+    "position": "Designer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Rewrote the selection logic on the map</p><p>- Changed the location of the switch</p><p>- Wrote the logic for reducing circles when zooming the map</p><p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p><p>- Planning new tasks and work on them</p>",
+    "problem": "- No",
+    "date": "1610492557000"
+  },
+  {
+    "id": 14,
+    "name": "Vlada Arevkova",
+    "position": "Software Engineer",
+    "avatar": "https://i.pravatar.cc/100",
+    "yesterday": "<p>- Refactored the trip request code of the map, got rid of duplicate code</p><p>- Sink with Ruslan and Oleg</p>",
+    "today": "<p>- Work on feedback</p>",
+    "problem": "- No",
+    "date": "1610372857000"
+  }
+
+]

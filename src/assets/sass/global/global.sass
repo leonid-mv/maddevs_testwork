@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap')
+
+*, *::before, *::after
+	box-sizing: inherit
+
+::-webkit-scrollbar 
+	width: 3px
+	height: 3px
+::-webkit-scrollbar-track-piece
+	background-color: #ffffff
+::-webkit-scrollbar-thumb
+	background-color: $accent
+	border-radius: 3px
+
+html
+	box-sizing: border-box
+
+body
+	margin: 0
+	overflow-x: hidden
+	min-width: 320px
+	opacity: 1
+	position: relative
+	font-family: 'Jost', sans-serif
+
+img
+	max-width: 100%
+	display: block
+
+a 
+	text-decoration: none
+	transition: .3s color
+	&:hover
+		color: $accent
+
+.app
+	display: flex
+
+h1
+	font-size: 43px
+	line-height: 57px
+	letter-spacing: -0.03em
+	color: #000
+h1.header_title_accent
+	color: #525DF9
+
+@keyframes fadeEffect
+	from
+		opacity: 0
+	to
+		opacity: 1

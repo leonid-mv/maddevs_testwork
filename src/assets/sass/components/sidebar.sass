@@ -1,0 +1,89 @@
+.sidebar
+  background: #F9F9FB
+  width: 220px
+  height: 100vh
+  position: sticky
+  left: 0
+  top: 0
+  border-right: 1px solid #ECECEF
+  margin-right: 128px
+  .logo
+    height: 62px
+    display: flex
+    align-items: center
+    border-bottom: 1px solid #ECECEF
+    padding-left: 16px
+    margin-bottom: 17px
+
+  .workspace_button
+    display: flex
+    align-items: center
+    font-weight: 500
+    margin-left: 16px
+    margin-right: 16px
+    margin-bottom: 56px
+    position: relative
+    height: 32px
+    cursor: pointer
+    transition: .2s color
+    .avatar
+      margin-right: 12px
+    &:hover
+      color: $accent
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      right: 0
+      top: 0
+      background: url('../img/arrow_ws.svg') no-repeat center
+      width: 24px
+      height: 32px
+
+  .sidebar_menu
+    display: flex
+    flex-direction: column
+    align-items: center
+    .item
+      width: 203px
+      height: 40px
+      background: transparent
+      border-radius: 8px
+      display: flex
+      align-items: center
+      font-weight: 500
+      padding: 0 8px
+      margin-bottom: 8px
+      color: $grey
+      transition: .2s all
+      &:hover
+        color: $accent
+        background: #F4F4FB
+        &::before
+          color: $accent
+      &::before
+        display: block
+        font-family: icons
+        font-size: 20px
+        margin-right: 12px
+        transition: .2s all
+      &:nth-child(1)
+        &::before
+          content: '\e900'
+      &:nth-child(2)
+        &::before
+          content: '\e901'
+      &:nth-child(3)
+        &::before
+          content: '\e902'
+      &:nth-child(4)
+        &::before
+          content: '\e903'
+      &:nth-child(5)
+        &::before
+          content: '\e904'
+    .item.active
+      background: rgba(82, 93, 249, 0.1)
+      color: $accent
+      &::before
+        color: $accent

@@ -1,0 +1,87 @@
+.filters_container
+  position: absolute
+  top: 0
+  right: 0
+  width: 276px
+  .filters
+    position: sticky
+    right: 0
+    top: 0
+  .filters_header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 29px
+    .filters_title
+      font-size: 22px
+      font-weight: 600
+    .button
+      width: 114px
+      position: relative
+      top: 5px
+      font-weight: 500
+
+
+.select_container
+  position: relative
+  .select_title
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    color: $grey
+  .select
+    border: 1px solid #D7D7DB
+    border-radius: 6px
+    padding: 9px 12px
+    height: 42px
+    cursor: pointer
+    color: #000000
+    position: relative
+    transition: .2s all
+    user-select: none
+    text-overflow: ellipsis
+    white-space: nowrap
+    overflow: hidden
+    padding-right: 50px
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      background: url('../img/chevron_down.svg') no-repeat
+      width: 24px
+      height: 24px
+      right: 10px
+      top: 7px
+      transition: .2s all
+    &:hover
+      color: #333
+      &::after
+        opacity: .7
+  .select_dropdown
+    border-radius: 6px
+    overflow: hidden
+    border: 1px solid #D7D7DB
+    position: absolute
+    top: 62px
+    z-index: 10
+    width: 100%
+    animation: fadeEffect .5s ease-out
+    display: none
+    .item
+      border-top: 1px solid #D7D7DB
+      padding: 9px 12px
+      height: 42px
+      cursor: pointer
+      color: #000000
+      transition: .2s all
+      user-select: none
+      &:first-child
+        border: none
+      &:hover
+        background: #eaeaea
+    .item.active
+      background: $accent
+      color: #fff
+
+  .select_dropdown.active
+    display: block
